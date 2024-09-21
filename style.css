@@ -73,12 +73,17 @@ nav button{
 }
 .seperation{
     height: 5px;
-    background-color: rgb(47, 46, 46);
+    background-color:rgb(47,46,46);
 }
 .btn{
     padding: 3px 8px;
-    font-weight: bold;
-    background-color: white;
+    font-weight: 400;
+    /* font-weight: bold; */
+    color: white;
+    background-color: rgba(248, 243, 243, 0.021);
+    border:1px solid white;
+    border-radius: 4px;
+
 }
 .btn-red{
 background-color:red ;
@@ -86,7 +91,13 @@ padding: 3px 24px;
 color: white;
 font-size: 20px;
 border-radius: 4px;
+font-weight: 400;
 }
+
+.btn-red-sm{
+    background-color:red ;
+    color: white;
+    }
 
 .hero-buttons{
     display: flex;
@@ -98,14 +109,132 @@ border-radius: 4px;
 .main input{
 padding: 7px 101px 8px 14px;
 color: white;
-font-weight: 900;
+/* font-weight: 900; */
 background-color: rgba(23, 23, 23, 0.7);
 font-size: 12px;
 border-radius: 4px;
 border: 1px solid rgba(246, 238, 238, 0.5);
 }
 
-.btn-red-sm{
-background-color:red ;
-color: white;
+.first{
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.secImg{
+    position: relative;
+}
+
+.secImg img{
+    width: 20vw;
+    position :relative;
+    z-index: 10;
+} 
+section.first > div{
+    display: flex;
+    flex-direction: column;
+    padding: 34px 0;
+}
+
+section.first > div :nth-child(1){
+    font-size: 48px;
+    font-weight: bolder;
+}
+section.first > div :nth-child(2){
+    font-size: 24px;
+    /* font-weight: bolder; */
+}
+
+
+/* .second{
+    display: flex;
+    justify-content:end;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    align-items: center;
+}
+
+.sceimg{
+    position: relative;
+}
+
+.secimg img{
+    width: 18vw;
+} 
+
+
+section.second > div{
+    display:flex ;
+    flex-direction:row;
+    text-align: right;
+    order: 2;
+}
+
+.second > div :nth-child(1){
+    font-size: 48px;
+    font-weight: bolder;
+}
+.second > div :nth-child(2){
+    font-size: 24px;
+    font-weight: bolder;
+} */
+
+/* .third{
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    align-items: center;
+}
+
+section.third > div{
+    display: flex;
+    flex-direction: column;
+}
+
+.third > div :nth-child(1){
+    font-size: 48px;
+    font-weight: bolder;
+}
+.third > div :nth-child(2){
+    font-size: 24px;
+    font-weight: bolder;
+} */
+
+/* //fourth */
+
+
+
+.faq h2{
+    text-align: center;
+    font-size: 48px
+}
+
+.faq{
+    background-color:black;
+    color:white ;
+    padding: 34px;
+}
+
+.faqbox{
+    transition: all 1s ease-out;
+    font-size: 20px;
+display: flex;
+justify-content: space-between;
+background-color: #2d2d2d;
+padding: 24px;
+max-width: 60vw;
+margin: 24px auto;
+cursor: pointer;
+}
+
+.faqbox:hover{
+background-color: rgb(148, 13, 13);
 }
